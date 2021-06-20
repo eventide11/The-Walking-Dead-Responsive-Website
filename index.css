@@ -1,0 +1,660 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 16px;
+    background: black;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+li {
+    padding-left: 0%;
+}
+@media only screen and (min-width: 320px) and  (max-width: 374px) {
+    header {
+        font-family: 'Electrolize', sans-serif;
+        color: aliceblue;
+        text-align: center;
+    }
+    header > div.logoWrapper {
+        height: 130px;
+    }
+    header > div.logoWrapper div {
+        height: 100%;
+        background-image: url(got384x216.jpg);
+        background-position: center -10px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    header div.title h1 {
+        font-size: 2.5rem;
+    }
+    header div.title h3 {
+        font-size: 1.3rem;
+    }
+    header div.title h3 span {
+        display: block;
+    }
+    nav {
+        height: 120px;
+        font-family: 'Electrolize', sans-serif;
+        margin-top: 20px;
+        text-align: center;
+    }
+    nav ul {
+    }
+    nav ul li {
+        height: 30px;
+        font-size: 1.3rem;
+        line-height: 30px;
+    }
+    nav ul li a {
+        color: aliceblue;
+    }
+    nav ul li.active {
+        color: aliceblue;
+        background: #a24320;
+    }
+    main {
+        width: 96%;
+        color: aliceblue;
+        font-family: 'Electrolize', sans-serif;
+        font-size: 1.5rem;
+        margin: 20px auto 0 auto;
+    }
+    main h2 {
+        border-bottom: 15px double #618cff;
+        color: #618cff;
+    }
+    main p {
+        margin-top: 20px;
+    }
+    main blockquote {
+        color: #618cff;
+    }
+    footer {
+        color: aliceblue;
+        font-family: 'Electrolize', sans-serif;
+        font-size: 1.5rem;
+        margin-top: 200px;
+        text-align: center;
+    }
+    footer span {
+        display: block;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 375px) and  (max-width: 413px) {
+    header {
+        font-family: 'Electrolize', sans-serif;
+        color: aliceblue;
+        text-align: center;
+    }
+    header > div.logoWrapper {
+        height: 150px;
+    }
+    header > div.logoWrapper div {
+        height: 100%;
+        background-image: url(got384x216.jpg);
+        background-position: center -10px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    header div.title h1 {
+        font-size: 3rem;
+    }
+    header div.title h3 {
+        font-size: 1.5rem;
+    }
+    header div.title h3 span {
+        display: block;
+    }
+    nav {
+        height: 150px;
+        font-family: 'Electrolize', sans-serif;
+        margin-top: 20px;
+        text-align: center;
+    }
+    nav ul {
+    }
+    nav ul li {
+        height: 37.5px;
+        font-size: 1.5rem;
+        line-height: 37.5px;
+    }
+    nav ul li a {
+        color: aliceblue;
+    }
+    nav ul li.active {
+        color: aliceblue;
+        background: #a24320;
+    }
+    main {
+        width: 96%;
+        color: aliceblue;
+        font-family: 'Electrolize', sans-serif;
+        font-size: 1.5rem;
+        line-height: 1.5;
+        margin: 20px auto 0 auto;
+    }
+    main h2 {
+        border-bottom: 25px double #618cff;
+        color: #618cff;
+    }
+    main p {
+        margin-top: 20px;
+    }
+    main blockquote {
+        color: #618cff;
+    }
+    footer {
+        color: aliceblue;
+        font-family: 'Electrolize', sans-serif;
+        font-size: 1.5rem;
+        margin-top: 200px;
+        text-align: center;
+    }
+    footer span {
+        display: block;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 414px) and  (max-width: 767px) {
+    header {
+        font-family: 'Electrolize', sans-serif;
+        color: aliceblue;
+        text-align: center;
+    }
+    header > div.logoWrapper {
+        height: 170px;
+    }
+    header > div.logoWrapper div {
+        height: 100%;
+        background-image: url(got384x216.jpg);
+        background-position: center -10px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    header div.title h1 {
+        font-size: 3.2rem;
+    }
+    header div.title h3 {
+        font-size: 1.7rem;
+    }
+    header div.title h3 span {
+        display: block;
+    }
+    nav {
+        height: 170px;
+        font-family: 'Electrolize', sans-serif;
+        margin-top: 20px;
+        text-align: center;
+    }
+    nav ul {
+    }
+    nav ul li {
+        height: 42.5px;
+        font-size: 1.7rem;
+        line-height: 42.5px;
+    }
+    nav ul li a {
+        color: aliceblue;
+    }
+    nav ul li.active {
+        color: aliceblue;
+        background: #a24320;
+    }
+    main {
+        width: 96%;
+        color: aliceblue;
+        font-family: 'Electrolize', sans-serif;
+        font-size: 1.7rem;
+        line-height: 1.5;
+        margin: 20px auto 0 auto;
+    }
+    main h2 {
+        border-bottom: 25px double #618cff;
+        color: #618cff;
+    }
+    main p {
+        margin-top: 20px;
+    }
+    main blockquote {
+        color: #618cff;
+    }
+    footer {
+        color: aliceblue;
+        font-family: 'Electrolize', sans-serif;
+        font-size: 1.7rem;
+        margin-top: 200px;
+        text-align: center;
+    }
+    footer span {
+        display: block;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 768px) and  (max-width: 1023px) {
+    header {
+        font-family: 'Electrolize', sans-serif;
+        color: aliceblue;
+        text-align: center;
+    }
+    header > div.logoWrapper {
+        height: 300px;
+    }
+    header > div.logoWrapper div {
+        height: 100%;
+        background-image: url(got576x324.jpg);
+        background-position: center -30px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    header div.title h1 {
+        font-size: 6rem;
+    }
+    header div.title h3 {
+        font-size: 3rem;
+    }
+    header div.title h3 span {
+        display: block;
+    }
+    nav {
+        height: 280px;
+        font-family: 'Electrolize', sans-serif;
+        margin-top: 20px;
+        text-align: center;
+    }
+    nav ul {
+    }
+    nav ul li {
+        height: 70px;
+        font-size: 3rem;
+        line-height: 70px;
+    }
+    nav ul li a {
+        color: aliceblue;
+    }
+    nav ul li.active {
+        color: aliceblue;
+        background: #a24320;
+    }
+    main {
+        width: 96%;
+        color: aliceblue;
+        font-family: 'Electrolize', sans-serif;
+        font-size: 3rem;
+        line-height: 1.5;
+        margin: 20px auto 0 auto;
+    }
+    main h2 {
+        border-bottom: 30px double #618cff;
+        color: #618cff;
+    }
+    main p {
+        margin-top: 20px;
+    }
+    main blockquote {
+        color: #618cff;
+    }
+    footer {
+        color: aliceblue;
+        font-family: 'Electrolize', sans-serif;
+        font-size: 3rem;
+        margin-top: 300px;
+        text-align: center;
+    }
+    footer span {
+        display: block;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1024px) and  (max-width: 1365px) {
+    header {
+        font-family: 'Electrolize', sans-serif;
+        color: aliceblue;
+        text-align: center;
+    }
+    header > div.logoWrapper {
+        height: 380px;
+    }
+    header > div.logoWrapper div {
+        height: 100%;
+        background-image: url(got960x540.jpg);
+        background-position: center -30px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    header div.title h1 {
+        font-size: 8rem;
+    }
+    header div.title h3 {
+        font-size: 4rem;
+    }
+    header div.title h3 span {
+        display: block;
+    }
+    nav {
+        height: 400px;
+        font-family: 'Electrolize', sans-serif;
+        margin-top: 40px;
+        text-align: center;
+    }
+    nav ul {
+    }
+    nav ul li {
+        height: 100px;
+        font-size: 4rem;
+        line-height: 100px;
+    }
+    nav ul li a {
+        color: aliceblue;
+    }
+    nav ul li.active {
+        color: aliceblue;
+        background: #a24320;
+    }
+    main {
+        width: 96%;
+        color: aliceblue;
+        font-family: 'Electrolize', sans-serif;
+        font-size: 4rem;
+        line-height: 1.5;
+        margin: 20px auto 0 auto;
+    }
+    main h2 {
+        border-bottom: 45px double #618cff;
+        color: #618cff;
+    }
+    main p {
+        margin-top: 20px;
+    }
+    main blockquote {
+        color: #618cff;
+    }
+    footer {
+        color: aliceblue;
+        font-family: 'Electrolize', sans-serif;
+        font-size: 4rem;
+        margin-top: 400px;
+        text-align: center;
+    }
+    footer span {
+        display: block;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1366px) and  (max-width: 1919px) {
+    header {
+        font-family: 'Electrolize', sans-serif;
+        color: aliceblue;
+    }
+    header > div.logoWrapper {
+        width: 33%;
+        height: 250px;
+        float: left;
+    }
+    header > div.logoWrapper div {
+        height: 100%;
+        background-image: url(got1152x648.jpg);
+        background-position: center -10px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    header div.title {
+        float: left;
+        margin-top: 40px;
+    }
+    header div.title h1 {
+        font-size: 5rem;
+    }
+    header div.title h3 {
+        font-size: 2rem;
+        margin-top: 10px;
+    }
+    div.clear {
+        clear: both;
+        content: '';
+        display: block;
+    }
+    nav {
+        font-family: 'Electrolize', sans-serif;
+        margin-top: 0px;
+        text-align: center;
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows: 50px;
+    }
+    nav ul {
+        grid-column: 1/-1;
+        grid-row: 1/2;
+    }
+    nav ul li{
+        width: 25%;
+        height: 100%;
+        float: left;
+        font-size: 2.5rem;
+        grid-row: 1/2;
+        line-height: 50px;
+        list-style: none;
+    }
+    nav ul li.about {
+        grid-column: 1/2;
+    }
+    nav ul li.tryouts {
+        grid-column: 2/3;
+    }
+    nav ul li.read {
+        grid-column: 3/4;
+    }
+    nav ul li.speakers {
+        grid-column: 4/-1;
+    }
+    nav ul li.active {
+        color: aliceblue;
+        background: #a24320;
+    }
+    nav ul li a {
+        color: aliceblue;
+    }
+    nav ul li:hover {
+        background: aliceblue;
+    }
+    nav ul li:hover a {
+        color: #a24320;
+    }
+    main {
+        width: 96%;
+        color: aliceblue;
+        font-family: 'Electrolize', sans-serif;
+        font-size: 2.5rem;
+        line-height: 1.5;
+        margin: 20px auto 0 auto;
+    }
+    main h2 {
+        border-bottom: 45px double #618cff;
+        color: #618cff;
+    }
+    main p {
+        margin-top: 20px;
+    }
+    main blockquote {
+        color: #618cff;
+    }
+    footer {
+        color: aliceblue;
+        font-family: 'Electrolize', sans-serif;
+        font-size: 2.5rem;
+        margin-top: 400px;
+        text-align: center;
+    }
+    footer span {
+        display: block;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1920px) {
+    header {
+        font-family: 'Electrolize', sans-serif;
+        color: aliceblue;
+    }
+    header > div.logoWrapper {
+        width: 33%;
+        height: 300px;
+        float: left;
+    }
+    header > div.logoWrapper div {
+        height: 100%;
+        background-image: url(got1152x648.jpg);
+        background-position: center -30px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    header div.title {
+        float: left;
+        margin-top: 40px;
+    }
+    header div.title h1 {
+        font-size: 7rem;
+    }
+    header div.title h3 {
+        font-size: 3rem;
+        margin-top: 10px;
+    }
+    div.clear {
+        clear: both;
+        content: '';
+        display: block;
+    }
+    nav {
+        font-family: 'Electrolize', sans-serif;
+        margin-top: 0px;
+        text-align: center;
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows: 60px;
+    }
+    nav ul {
+        grid-column: 1/-1;
+        grid-row: 1/2;
+    }
+    nav ul li{
+        width: 25%;
+        height: 100%;
+        float: left;
+        font-size: 2.5rem;
+        grid-row: 1/2;
+        line-height: 60px;
+        list-style: none;
+    }
+    nav ul li.about {
+        grid-column: 1/2;
+    }
+    nav ul li.tryouts {
+        grid-column: 2/3;
+    }
+    nav ul li.read {
+        grid-column: 3/4;
+    }
+    nav ul li.speakers {
+        grid-column: 4/-1;
+    }
+    nav ul li.active {
+        color: aliceblue;
+        background: #a24320;
+    }
+    nav ul li a {
+        color: aliceblue;
+    }
+    nav ul li:hover {
+        background: aliceblue;
+    }
+    nav ul li:hover a {
+        color: #a24320;
+    }
+    main {
+        width: 96%;
+        color: aliceblue;
+        font-family: 'Electrolize', sans-serif;
+        font-size: 3rem;
+        line-height: 1.5;
+        margin: 20px auto 0 auto;
+    }
+    main h2 {
+        border-bottom: 45px double #618cff;
+        color: #618cff;
+    }
+    main p {
+        margin-top: 20px;
+    }
+    main blockquote {
+        color: #618cff;
+    }
+    footer {
+        color: aliceblue;
+        font-family: 'Electrolize', sans-serif;
+        font-size: 3rem;
+        margin-top: 700px;
+        text-align: center;
+    }
+    footer span {
+        display: block;
+    }
+}
